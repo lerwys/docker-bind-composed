@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  bind:
+    image: lnlsdig/bind
+    ports:
+      - "53:53/udp"
+    container_name: bind
+    volumes:
+      - type: bind
+        source: ./data/bind
+        target: /etc/bind
+      - type: bind
+        source: ./bindlog
+        target: /var/log/named
