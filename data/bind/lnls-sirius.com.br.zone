@@ -19,6 +19,7 @@ lnls-sirius.com.br.        1800    IN    NS        ns1.lnls-sirius.com.br.
 ; pointer records
 ; -----------------------------------------------------------------------------
 ns1                 1800    IN    A         192.168.2.12
+tftpboot            1800    IN    A         192.168.2.12
 nfsroot             1800    IN    A         192.168.2.12
 nfshome             1800    IN    A         192.168.2.12
 dockerregistry      1800    IN    A         192.168.2.12
