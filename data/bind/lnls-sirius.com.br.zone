@@ -1,9 +1,9 @@
 $TTL 1h
 ; -----------------------------------------------------------------------------
-; SOA for lnlsdig.com.br
+; SOA for lnls-sirius.com.br
 ; -----------------------------------------------------------------------------
 
-@ IN SOA ns1.lnlsdig.com.br. admin.lnlsdig.com.br. (
+@ IN SOA ns1.lnls-sirius.com.br. admin.lnls-sirius.com.br. (
             2018040301      ; Serial
             1h              ; Refresh
             15m             ; Retry
@@ -13,7 +13,7 @@ $TTL 1h
 ; -----------------------------------------------------------------------------
 ; zone records
 ; -----------------------------------------------------------------------------
-lnlsdig.com.br.        1800    IN    NS        ns1.lnlsdig.com.br.
+lnls-sirius.com.br.        1800    IN    NS        ns1.lnls-sirius.com.br.
 
 ; -----------------------------------------------------------------------------
 ; pointer records
