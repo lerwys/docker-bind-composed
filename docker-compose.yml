@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   bind:
-    image: lnlsdig/bind
+    image: lnls/bind
     ports:
       - "53:53/udp"
     container_name: bind
