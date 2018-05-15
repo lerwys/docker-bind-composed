@@ -1,6 +1,7 @@
 version: '3.4'
 services:
   bind:
+    restart: always
     image: lnls/bind
     ports:
       - "53:53/udp"
