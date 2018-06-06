@@ -6,7 +6,9 @@ References: https://wiki.debian.org/DDNS
 ### Run Instructions
 
 Prior to running the image, change the DDNS key with a valid one.
-WARNING! This key must be the same one as the DHCP server.
+WARNING! This key must be the same one as the DHCP server. If you have
+already done this for a DHCP server, just copy the key and copy to the
+appropriate file.
 
 You can generate one with:
 
