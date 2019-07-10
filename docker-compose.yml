@@ -5,6 +5,9 @@ services:
     image: lnls/bind
     ports:
       - "53:53/udp"
+    logging:
+      options:
+        max-size: 50m
     container_name: bind
     volumes:
       - type: bind
