@@ -4,7 +4,7 @@ $TTL 1h
 ; -----------------------------------------------------------------------------
 
 @ IN SOA ns1.lnls-sirius.com.br. admin.lnls-sirius.com.br. (
-            2019071201      ; Serial
+            2019071202      ; Serial
             1h              ; Refresh
             15m             ; Retry
             1d              ; Expire
@@ -26,6 +26,8 @@ nfsautosave         1800    IN    A        10.128.255.7
 dockerregistry      1800    IN    A        10.128.255.7
 epicsdeb            1800    IN    A        10.128.255.7
 dig-deploy          1800    IN    A        10.128.255.7
+dig-containers      1800    IN    A        10.128.255.7
+portainer           1800    IN    A        10.128.255.7
 
 ; -----------------------------------------------------------------------------
 ; cname records
