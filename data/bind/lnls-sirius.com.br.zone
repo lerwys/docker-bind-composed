@@ -29,14 +29,72 @@ dig-deploy          1800    IN    A        10.128.255.7
 dig-containers      1800    IN    A        10.128.255.7
 portainer           1800    IN    A        10.128.255.7
 
+
+; linac
+
+li-di-ictosc                  1800   IN  A   10.128.1.52
+li-eg-egun-1                  1800   IN  A   10.128.10.11
+li-eg-egun-2                  1800   IN  A   10.128.10.108
+li-pu-mod                     1800   IN  A   10.128.1.13
+li-mp-mps                     1800   IN  A   10.128.10.104
+li-di-screens                 1800   IN  A   10.128.1.51
+li-rf-llrf                    1800   IN  A   10.128.1.12
+li-di-bpm                     1800   IN  A   10.128.1.54
+li-va-vacuum                  1800   IN  A   10.128.10.106
+
+; new power supplies
+
+PA-RaPSE05:CO-PSCtrl-BO2      1800   IN  A   10.128.123.118
+PA-RaPSF05:CO-PSCtrl-BO2      1800   IN  A   10.128.123.119
+PA-RaPSD01:PS-DCLink-1A       1800   IN  A   10.128.125.101
+PA-RaPSD01:PS-DCLink-1B       1800   IN  A   10.128.125.102
+PA-RaPSD03:PS-DCLink-2A       1800   IN  A   10.128.125.103
+PA-RaPSD03:PS-DCLink-2B       1800   IN  A   10.128.125.104
+PA-RaPSD01:PS-DCLink-3A       1800   IN  A   10.128.125.105
+PA-RaPSD01:PS-DCLink-3B       1800   IN  A   10.128.125.106
+PA-RaPSD03:PS-DCLink-4A       1800   IN  A   10.128.125.107
+PA-RaPSD03:PS-DCLink-4B       1800   IN  A   10.128.125.108
+PA-RaPSD05:PS-DCLink-1A       1800   IN  A   10.128.125.109
+PA-RaPSD05:PS-DCLink-1B       1800   IN  A   10.128.125.110
+PA-RaPSD07:PS-DCLink-2A       1800   IN  A   10.128.125.111
+PA-RaPSD07:PS-DCLink-2B       1800   IN  A   10.128.125.112
+PA-RaPSD05:PS-DCLink-3A       1800   IN  A   10.128.125.113
+PA-RaPSD05:PS-DCLink-3B       1800   IN  A   10.128.125.114
+PA-RaPSD07:PS-DCLink-4A       1800   IN  A   10.128.125.115
+PA-RaPSD07:PS-DCLink-4B       1800   IN  A   10.128.125.116
+PA-RaPSA01:PS-DCLink-QFAP     1800   IN  A   10.128.125.117
+PA-RaPSA01:PS-DCLink-QFB      1800   IN  A   10.128.125.118
+PA-RaPSA03:PS-DCLink-QDAP     1800   IN  A   10.128.125.119
+PA-RaPSA04:PS-DCLink-QDB      1800   IN  A   10.128.125.120
+PA-RaPSA06:PS-DCLink-Q13A     1800   IN  A   10.128.125.121
+PA-RaPSA06:PS-DCLink-Q13B     1800   IN  A   10.128.125.122
+PA-RaPSA06:PS-DCLink-Q13C     1800   IN  A   10.128.125.123
+PA-RaPSA07:PS-DCLink-Q24A     1800   IN  A   10.128.125.124
+PA-RaPSA07:PS-DCLink-Q24B     1800   IN  A   10.128.125.125
+PA-RaPSA07:PS-DCLink-Q24C     1800   IN  A   10.128.125.126
+PA-RaPSB01:PS-DCLink-SDAP0    1800   IN  A   10.128.125.127
+PA-RaPSB01:PS-DCLink-SDB0     1800   IN  A   10.128.125.128
+PA-RaPSB03:PS-DCLink-SFAP0    1800   IN  A   10.128.125.129
+PA-RaPSB03:PS-DCLink-SFB0     1800   IN  A   10.128.125.130
+PA-RaPSB04:PS-DCLink-SDB1     1800   IN  A   10.128.125.131
+PA-RaPSB04:PS-DCLink-SDA12    1800   IN  A   10.128.125.132
+PA-RaPSB05:PS-DCLink-SDA3SFA1 1800   IN  A   10.128.125.133
+PA-RaPSB05:PS-DCLink-SDB2     1800   IN  A   10.128.125.134
+PA-RaPSB07:PS-DCLink-SFA2SDP1 1800   IN  A   10.128.125.135
+PA-RaPSB07:PS-DCLink-SDB3     1800   IN  A   10.128.125.136
+PA-RaPSB08:PS-DCLink-SDP23    1800   IN  A   10.128.125.137
+PA-RaPSB08:PS-DCLink-SFB1     1800   IN  A   10.128.125.138
+PA-RaPSB10:PS-DCLink-SFP12    1800   IN  A   10.128.125.139
+PA-RaPSB10:PS-DCLink-SFB2     1800   IN  A   10.128.125.140
+
 ; power supplies
 
 PA-RaPSC03--CO-PSCtrl-BO1      1800   IN   A           10.128.123.101
 PA-RaPSC03--CO-PSCtrl-BO2      1800   IN   A           10.128.123.102
 PA-RaPSC03--CO-PSCtrl-BO3      1800   IN   A           10.128.123.103
 PA-RaPSC03--CO-PSCtrl-BO4      1800   IN   A           10.128.123.104
-PA-RaPSF05--CO-PSCtrl-BO       1800   IN   A           10.128.123.105
-PA-RaPSE05--CO-PSCtrl-BO       1800   IN   A           10.128.123.106
+PA-RaPSE05--CO-PSCtrl-BO1      1800   IN   A           10.128.123.105
+PA-RaPSF05--CO-PSCtrl-BO1      1800   IN   A           10.128.123.106
 PA-RaPSD04--CO-PSCtrl-SI       1800   IN   A           10.128.123.107
 PA-RaPSA02--CO-PSCtrl-SI1      1800   IN   A           10.128.123.108
 PA-RaPSA02--CO-PSCtrl-SI2      1800   IN   A           10.128.123.109
@@ -174,8 +232,8 @@ bbb-bo-quadrupole-qf           1800   IN   A           10.128.123.101
 bbb-bo-sextupole-sf            1800   IN   A           10.128.123.102
 bbb-bo-sextupole-sd            1800   IN   A           10.128.123.103
 bbb-bo-quadrupole-qd           1800   IN   A           10.128.123.104
-bbb-bo-dipole-2                1800   IN   A           10.128.123.105
-bbb-bo-dipole-1                1800   IN   A           10.128.123.106
+bbb-bo-dipole-1                1800   IN   A           10.128.123.105
+bbb-bo-dipole-2                1800   IN   A           10.128.123.106
 bbb-si-dipoles                 1800   IN   A           10.128.123.107
 bbb-si-quadrupoles-qf          1800   IN   A           10.128.123.108
 bbb-si-quadrupoles-qd1         1800   IN   A           10.128.123.109
